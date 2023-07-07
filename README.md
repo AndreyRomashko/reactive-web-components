@@ -25,7 +25,11 @@ A lightweight frontend framework for creating modern web apps using pure web com
 To use the Reactive Web Components library, you need to have Node.js and npm (Node Package Manager) installed. Then, you can install the library by running the following command:
 
 ```shell
-npm install reactive-web-components
+npm i @andrcode/reactive-web-components
+```
+or 
+```shell
+yarn add @andrcode/reactive-web-components
 ```
 
 ## Introduction
