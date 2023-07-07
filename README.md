@@ -51,7 +51,7 @@ Reactive Web Components is a lightweight frontend framework that enables you to 
 To create a reactive component, you need to extend the `ReactiveComponent` class provided by the library. Here's an example:
 
 ```javascript
-import { ReactiveComponent, registerComponent } from "reactive-web-components";
+import { ReactiveComponent, registerComponent } from "@andrcode/reactive-web-components";
 
 export class Counter extends ReactiveComponent {
   constructor() {
@@ -109,7 +109,7 @@ Reactive Web Components also provides a utility function `createFunctionalCompon
 import {
   registerComponent,
   createFunctionalComponent,
-} from "reactive-web-components";
+} from "@andrcode/reactive-web-components";
 
 const initialState = { count: 0 };
 
@@ -154,7 +154,7 @@ In the above example, the `Counter` component is created using the `createFuncti
 To use your reactive components, you need to register them as custom elements using the `registerComponent` function. Here's an example:
 
 ```javascript
-import { registerComponent } from "reactive-web-components";
+import { registerComponent } from "@andrcode/reactive-web-components";
 
 registerComponent("counter-component", Counter);
 ```
@@ -216,7 +216,7 @@ In the above example, the event handlings are defined for handling button click 
 Reactive Web Components includes a router for building single-page applications with multiple views. To use the router, you need to define routes and create a `Router` instance. Here's an example:
 
 ```javascript
-import { Router } from "reactive-web-components";
+import { Router } from "@andrcode/reactive-web-components";
 import { News } from "./pages/News";
 import { Home } from "./pages/Home";
 import { Products } from "./pages/Products";
@@ -275,7 +275,7 @@ Here are some examples of how to use Reactive Web Components in different scenar
 ```
 
 ```javascript
-import { ReactiveComponent, registerComponent } from "reactive-web-components";
+import { ReactiveComponent, registerComponent } from "@andrcode/reactive-web-components";
 
 export class Counter extends ReactiveComponent {
   constructor() {
@@ -338,7 +338,7 @@ registerComponent("counter-component", Counter);
 ```
 
 ```javascript
-import { ReactiveComponent, registerComponent } from "reactive-web-components";
+import { ReactiveComponent, registerComponent } from "@andrcode/reactive-web-components";
 
 export class TodoList extends ReactiveComponent {
   constructor() {
@@ -421,7 +421,7 @@ import {
   ReactiveComponent,
   registerComponent,
   Router,
-} from "reactive-web-components";
+} from "@andrcode/reactive-web-components";
 import { Home } from "./pages/Home";
 import { About } from "./pages/About";
 import { Contact } from "./pages/Contact";
