@@ -1,6 +1,6 @@
 {
   "name": "@andrcode/reactive-web-components",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Reactive Web Components is a lightweight frontend framework for creating modern web apps using pure web components API with observable state , events, effect, and router.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
